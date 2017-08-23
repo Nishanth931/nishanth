@@ -1,1 +1,26 @@
-my name is nishanth 
+<?xml version="1.0"?>
+
+-<project default="C" name="test">
+
+
+-<target name="A">
+
+<echo> This is my first ant script </echo>
+
+</target>
+
+
+-<target name="B">
+
+<echo> This is my first ant script B </echo>
+
+</target>
+
+
+-<target name="C" depends="A,B">
+
+<echo> This is my first ant script C </echo>
+
+</target>
+
+</project>
